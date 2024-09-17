@@ -33,8 +33,12 @@ jobs:
 
     - name: Move downloaded files to root directory
       run: |
-        # Move files to the working directory if they are found
-        mv $(find . -name '*.csv') .
+        # Move files to the working directory only if they are not already there
+        for file in $(find . -name '*.csv'); do
+          if [ "$file" != "./$(basename $file)" ]; then
+            mv "$file" . || true
+          fi
+        done
 
     - name: Run Jupyter Notebook
       run: |
