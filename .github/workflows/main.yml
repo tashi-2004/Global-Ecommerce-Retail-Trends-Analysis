@@ -40,9 +40,10 @@ jobs:
           fi
         done
 
-    - name: Run Jupyter Notebook
-      run: |
-        jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=-1 code.ipynb --output executed_notebook.ipynb
+    # Commented out the notebook execution step
+    # - name: Run Jupyter Notebook
+    #   run: |
+    #     jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=-1 code.ipynb --output executed_notebook.ipynb
 
     - name: Upload Results
       uses: actions/upload-artifact@v3
