@@ -13,7 +13,7 @@ This project involves analyzing global e-commerce trends and their impact on tra
 
 
 2. **Reports:**
-   - `report.pdf`: A comprehensive report detailing the analysis, visualizations, and insights.
+   - `Report.pdf`: A comprehensive report detailing the analysis, visualizations, and insights.
    - `Pre-Processing_Insights.pdf`: A detailed document explaining the preprocessing steps taken, including outlier detection and handling missing values.
 
 3. **Notebook:**
