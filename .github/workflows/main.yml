@@ -28,8 +28,13 @@ jobs:
     - name: Download CSV Files from Mega
       run: |
         megadl 'https://mega.nz/folder/GRMlHbzB#RNCqR2Wn1MwV6UkK4i-8dQ'
-        # Move downloaded files to the working directory
-        mv GRMlHbzB/* .
+        # List the directory structure to verify where the files are
+        ls -R
+
+    - name: Move downloaded files to root directory
+      run: |
+        # Move files to the working directory if they are found
+        mv $(find . -name '*.csv') .
 
     - name: Run Jupyter Notebook
       run: |
