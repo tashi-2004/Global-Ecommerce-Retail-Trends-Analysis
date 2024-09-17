@@ -33,23 +33,33 @@ This project involves analyzing global e-commerce trends and their impact on tra
 
 ### 2. Dimensionality Reduction with PCA
 - **Principal Component Analysis (PCA):** Applied to the normalized dataset to reduce dimensionality while retaining 80% of the variance.
+  
+     <img width="1000" alt="pcaaaa" src="https://github.com/user-attachments/assets/9bd6672d-39b0-4ebe-80b6-abd7517fde98">
 - **Visualizations:** 
   - Scatter plot of the first two principal components.
+    <img width="1016" alt="2" src="https://github.com/user-attachments/assets/45bb81f4-3343-4c1c-960f-c7492e1c534e">
+
   - Heatmap and boxplots to visualize PCA results.
+    <img width="946" alt="23" src="https://github.com/user-attachments/assets/a683e71a-0ab3-42da-b911-5c7ab226095b">
+    <img width="1022" alt="22" src="https://github.com/user-attachments/assets/760a4c63-d1af-4cb3-b055-9ac0ca06c857">
 
 ### 3. Customer Lifetime Value (CLV)
 - **CLV Calculation:** CLV was calculated for each customer based on average purchase value, purchase frequency, and retention rate.
 - **CLV Visualization:** 
   - Boxplots and violin plots were used to visualize CLV across different customer segments.
+    <img width="1011" alt="image" src="https://github.com/user-attachments/assets/1aec4759-4764-46ec-9f15-c7c779683401">
+
   - A heatmap of average CLV across customer segments was generated.
+    <img width="942" alt="223" src="https://github.com/user-attachments/assets/808cb868-9f09-431a-88d6-0377fe9cd303">
 
 ### 4. What-If Analysis
 - **Price Change Simulations:** The effect of different price changes on CLV was simulated by modifying the `UnitPrice` variable. The results were visualized using line plots and histograms.
 - **Visualization of Impact:** Line plots and heatmaps were created to illustrate the impact of different `UnitPrice` multipliers on CLV and total sales.
+    <img width="1200" alt="Screenshot 2024-09-18 013304" src="https://github.com/user-attachments/assets/6d17c7c4-16c3-420f-be94-47c9119c576a">
 
 ## Running the Notebook
 
-1. Open the Jupyter notebook `22i-2041_Tashfeen_D_A1.ipynb` in any Jupyter environment (e.g., JupyterLab, Google Colab).
+1. Open the Jupyter notebook `code.ipynb` in any Jupyter environment (e.g., JupyterLab, Google Colab).
 2. Run the code cells in sequence to preprocess the data, apply PCA, calculate CLV, and generate the visualizations.
 
 ### Dataset Files:
@@ -71,6 +81,6 @@ This project involves analyzing global e-commerce trends and their impact on tra
 - **Heatmaps:** Used to display the relationship between CLV, total sales, and `UnitPrice` changes.
 - **Histograms:** Demonstrate the frequency of CLV values for various price multipliers in the What-if analysis.
 
-## License
+## Contact
 
-This project is licensed under [Your Preferred License].
+For any questions or suggestions, feel free to contact at [abbasitashfeen7@gmail.com]
