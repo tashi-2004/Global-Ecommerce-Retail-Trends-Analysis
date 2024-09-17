@@ -8,8 +8,8 @@ This project involves analyzing global e-commerce trends and their impact on tra
 
 1. **Datasets:**
    - `1.csv`, `2.csv`, `3.csv`: Raw e-commerce and retail datasets containing information about sales, customer transactions, and more.
-   - `tashi.csv`: A combined and preprocessed dataset that merges `1.csv`, `2.csv`, and `3.csv`. [Download from Mega](https://mega.nz/folder/GRMlHbzB#RNCqR2Wn1MwV6UkK4i-8dQ)
-   - `pca_transformed_data.csv`: Dataset after applying PCA for dimensionality reduction. [Download from Mega](https://mega.nz/folder/GRMlHbzB#RNCqR2Wn1MwV6UkK4i-8dQ)
+   - `tashi.csv`: A combined and preprocessed dataset that merges `1.csv`, `2.csv`, and `3.csv`. [Download](https://mega.nz/folder/GRMlHbzB#RNCqR2Wn1MwV6UkK4i-8dQ)
+   - `pca_transformed_data.csv`: Dataset after applying PCA for dimensionality reduction. [Download](https://mega.nz/folder/GRMlHbzB#RNCqR2Wn1MwV6UkK4i-8dQ)
 
 
 2. **Reports:**
