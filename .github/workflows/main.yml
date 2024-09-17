@@ -15,10 +15,21 @@ jobs:
       with:
         python-version: '3.8'
 
-    - name: Install dependencies
+    - name: Install dependencies from requirements.txt
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
+    - name: Install MEGAcmd
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y megatools
+
+    - name: Download CSV Files from Mega
+      run: |
+        megadl 'https://mega.nz/folder/GRMlHbzB#RNCqR2Wn1MwV6UkK4i-8dQ'
+        # Move downloaded files to the working directory
+        mv GRMlHbzB/* .
 
     - name: Run Jupyter Notebook
       run: |
